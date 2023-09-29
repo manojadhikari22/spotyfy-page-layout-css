@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-size: 0.6rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+/* header section*/
+header {
+    height: 60px;
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: black;
+    color: #fff;
+}
+header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header .container .logo {
+    margin-bottom: 2rem;
+}
+.logo strong {
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: inline-block;
+}
+.logo .logo-point {
+    font-size: 2rem;
+    color: orangered;
+}
+nav ul {
+    display: flex;
+    
+}
+nav ul li {
+    height: 100%;
+    margin: 1rem;
+    border: none;
+}
+.ul-login:hover {
+    cursor: pointer;
+    color: var(--green);
+}
+
+/* main section*/
+section.pointer {
+    font-size: 1rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(69, 69, 222);
+    color: greenyellow;
+    background-image: linear-gradient(red, blue);
+}
+section.pointer h1 {
+    font-size: 7rem;
+    line-height: 1.2;
+}
+section.pointer p {
+    font-size: 1rem;
+    margin: 2rem 0;
+}
+section.pointer button {
+    background-color: rgb(24, 222, 24);
+    color: blue;
+    border: none;
+    font-size: 1.5rem;
+    padding: 1rem 1.5rem;
+    border-radius: 2rem;
+}
+section.pointer button:hover {
+    cursor: pointer;
+    transform: scale(104%, 104%);
+}
+
+/* footer section*/
+footer {
+    background-color: rgb(15, 16, 15);
+    color: #fff;
+}
+footer section.footer1 {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+footer .links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+footer .links ul li {
+    font-size: 1rem;
+    padding: 0.5rem;
+} 
+footer .links ul li:hover {
+    cursor: pointer;
+    color: var(--green);
+}
+
+footer .links .heading {
+    color: bisque;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+footer .links .heading:hover {
+    cursor: text;
+    color: bisque;
+}
+
+footer .social ul {
+    display: flex;
+    justify-content: center;   
+}
+footer .social ul li {
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    flex-grow: 1;
+    margin: 0 0.5rem;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(58, 53, 53);
+    border-radius: 50%;
+}
+footer .social ul li:hover {
+    color: var(--green);
+    cursor: pointer;
+}
+footer .location {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+footer .location:hover {
+    cursor: pointer;
+    color: var(--green);
+}
+footer .location i {
+    align-self: center;
+}
+footer .location span {
+    padding: 0 1.2rem;
+}
+footer .follow {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+footer .follow span {
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+footer .follow span:hover {
+    cursor: pointer;
+    color: var(--green);
+}
+footer .follow ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+footer .follow ul li {
+    font-size: 1rem;
+    padding: 0 1rem;
+}
+footer .follow ul li:hover {
+    cursor: pointer;
+    color: var(--green);
+}
+
+
+
